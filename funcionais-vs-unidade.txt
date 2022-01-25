@@ -1,0 +1,3 @@
+1. Testes de unidade são menores e mais rápidos, pois visam exercitar a menor parte testável do sistema, devendo ser rodados frequentemente. Já testes funcionais exercitam uma funcionalidade completa de forma a integrar diferentes módulos do sistema e, por isso, são mais lentos e podem ser rodados com maior intervalo.
+
+2. Testes de unidade devem testar o código de maneira isolada, ou seja, sem chamar dependências externas (para isso, costumam utilizar test doubles), como banco de dados ou outras APIs, enquanto testes funcionais podem (e devem) testar essas integrações.
